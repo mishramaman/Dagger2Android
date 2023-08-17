@@ -13,7 +13,7 @@ interface UserRegistrationComponent{
 
     @Component.Factory
     interface Factory{
-        fun create(@BindsInstance retryCount:Int):UserRegistrationComponent
+        fun create(@BindsInstance retryCount: Int, s: String):UserRegistrationComponent
     }
 
 

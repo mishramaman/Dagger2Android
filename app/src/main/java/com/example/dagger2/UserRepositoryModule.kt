@@ -6,6 +6,7 @@ import dagger.Provides
 
 @Module
 class UserRepositoryModule() {
+    //Modules are created for abstract classes or interfaces to tell how the object will be created using provider//
 
     @FirebaseQualifier
     @Provides
